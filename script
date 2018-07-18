@@ -59,6 +59,12 @@ echo
 read u
 echo
 echo
+
+if [ "$u"=="1"]; then
+
+echo -e "localhost"
+fi
+
 echo -e " $green Please Wait For Start Server"
 echo
 echo
