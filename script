@@ -54,7 +54,7 @@ echo -e " 3) 1.1.1.1.1:8080"
 echo
 echo
 echo -e "$red"
-read -s -n "Enet Your Opition (e.g. 1)" url
+read "Enet Your Opition (e.g. 1)" url
 echo
 echo
 echo
