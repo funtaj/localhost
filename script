@@ -31,19 +31,39 @@ echo -e "$red         +++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo
 echo
 echo
-echo
-echo -e "$blue You Can Edit && Upload Your File In public_html in Your Storage "
 
 
+echo -e "$green        ------------------------------------------------------------------------"
 echo
-echo -e "$blue  Url Lists For Run Php "
+echo -e "$blue            You Can Edit && Upload Your File In public_html in Your Storage "
+
+echo -e "$green        ------------------------------------------------------------------------
+echo
 echo
 
-echo -e "$yellow 1)http://localhost:8080"
 echo
-echo " 2)http://127.0.0.1:8080"
+echo -e "$blue            Url Lists For Run Php "
+echo
+echo
+
+echo -e "$green"
+
+echo "**********************************"
+echo "*                                *"
+echo "*                                *"
+echo "*     1)http://localhost:8080    *"
+echo "*                                *"
+echo "*      2)http://127.0.0.1:8080   *"
+echo "*                                *"
+echo "*                                *"
+echo "**********************************"
+
+
+
+
+
 #echo " 3)http://0.0.0.0:8080"
-
+echo
 echo
 echo -e "$green Select Your Opition "
 echo
