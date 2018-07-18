@@ -23,13 +23,11 @@ mv script $dir/usr/bin
 
 echo
 echo
-echo -e " $green                ======= Script Installed Succesfully======="
+echo -e " $green     ======= Script Installed Succesfully======="
 
 echo
 echo
 echo
-
-echo -e "$blue                     -- You Can Run Script by Just call $red `script`"
-
 rm -rf localhost
-echo
+echo -e "$blue   You Can Run Script by Just call $red `script`"
+
