@@ -29,21 +29,12 @@ echo "              *                                *"
 echo "              *                                *"
 echo "              *                                *"
 echo "              **********************************"
-
-
-
-
-
-
 echo
 echo
 echo
-
-
 echo -e "$green        ------------------------------------------------------------------------"
 echo
 echo -e "$blue            You Can Edit && Upload Your File In public_html in Your Storage "
-
 echo -e "$green        ------------------------------------------------------------------------
 echo
 echo
@@ -68,16 +59,12 @@ echo
 case "$u" in
 1)echo
 echo
-
-echo -e "$green  Please Wait Starting http://localhost:8080"
-
+echo -e "$green  Please Wait Starting Server .........."
 echo
 echo
 echo
 cd $dir/home 
-
 sleep 2
-
 php -S localhost:8080 -t /sdcard/public_html
 echo
 echo
@@ -85,7 +72,6 @@ echo
 script
 ;;
 2)echo
-
 echo
 ;;
 esac
