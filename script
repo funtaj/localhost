@@ -65,9 +65,23 @@ echo
 echo -e "$green Please Wait Starting Server With http://localhost:8080"
 echo
 sleep 2
-
-server = php -S localhost:8080 -t /sdcard/public_html
+php -S localhost:8080 -t /sdcard/public_html
 echo
 ;;
-
+2)
+echo
+echo -e "$green Please Wait Starting Server With http://127.0.0.1:8080"
+echo
+sleep 2
+php -S 127.0.0.1:8080 -t /sdcard/public_html
+echo
+;;
+3)
+echo
+echo -e "$green Please Wait Starting Server With http://1.1.1.1:8080"
+echo
+sleep 2
+php -S 1.1.1.1:8080 -t /sdcard/public_html
+echo
+::
 esac
