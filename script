@@ -55,6 +55,6 @@ echo
 if [ $u == '1' ] ; then
 echo $u
 else
+read u
 if [ $u == '2' ] : then
-
 echo $u
