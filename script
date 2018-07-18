@@ -63,33 +63,3 @@ echo $u
 
 echo
 
-echo
-if [ $u=="1" ]; then
-
-
-echo -e " $green Please Wait For Starting http://localhost:8080"
-echo
-sleep 2
-php -S localhost:8080 -t /sdcard/public_html
-bash /data/data/com.termux/files/home/localhost/script
-fi
-
-read -p "Enter Value => " u
-if [ $u=="2" ]; then
-echo -e " $green Please Wait For Starting http://127.0.0.1:8080"
-echo
-php -S 127.0.0.1:8080 -t /sdcard/public_html
-bash /data/data/com.termux/files/home/localhost/script
-fi
-read u
-if [ $u=="3" ]; then
-echo -e " $green Please Wait For Starting http://1.1.1.1.8080"
-echo
-sleep 2
-php -S 1.1.1.1:8080 -t /sdcard/public_html
-bash /data/data/com.termux/files/home/localhost/script
-echo
-sleep 2
-
-fi
-exit
