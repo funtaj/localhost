@@ -15,8 +15,21 @@ cd $dir/home
 
 clear
 echo
+echo -e "$green"
 
-
-
-
-
+echo -e "                         ***********************************************"
+echo -e "                         *                                             *"
+echo -e "                         *                                             *"
+echo -e "                         *                                             *"
+echo -e "                         *                                             *"
+echo -e "                         *                                             *" 
+echo -e "                         *                                             *"
+echo -e "                         *                                             *"
+echo -e "                         *                                             *"
+echo -e "                         *                                             *"
+echo -e "                         *                                             *"
+echo -e "                         *                                             *"
+echo -e "                         *                                             *"
+echo -e "                         *                                             *"
+echo -e "                         *                                             *"
+echo -e "                         ***********************************************"
