@@ -64,6 +64,9 @@ case $u in
 echo
 echo -e "$green Please Wait Starting Server With http://localhost:8080"
 echo
+sleep 2
+
+php -S localhost:8080 -t /sdcard/public_html
 echo
 ;;
 
