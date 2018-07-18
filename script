@@ -29,16 +29,14 @@ echo
 echo 
 echo -e "$red         +++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo
-
-echoe
 echo
 echo
-
+echo
 echo -e "$blue You Can Edit && Upload Your File In public_html in Your Storage "
 
 
 echo
-echo -e "$blue   Select Your Url "
+echo -e "$blue  Url Lists For Run Php "
 echo
 
 echo -e "$yellow 1)http://localhost:8080"
@@ -47,9 +45,8 @@ echo " 2)http://127.0.0.1:8080"
 #echo " 3)http://0.0.0.0:8080"
 
 echo
+echo -e "$green Select Your Opition "
 echo
-echo
-
 read u
 echo
 case "$u" in
