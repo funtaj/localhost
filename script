@@ -33,10 +33,3 @@ echo -e "         * * * * * * * * * * * * * * * * * * * * * * * "
 echo
 echo
 echo
-echo
-echo
-echo
-
-read u
-
-echo $u
