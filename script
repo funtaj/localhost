@@ -70,6 +70,15 @@ sleep 2
 php -S localhost:8080 -t /sdcard/public_html
 
 bash /data/data/com.termux/files/home/localhost/script
+else
+
+if [ $u=="2" ]; then
+
+
+php -S 127.0.0.1:8080 -t /sdcard/public_html
+
+bash /data/data/com.termux/files/home/localhost/script
+
 fi
 
 echo
