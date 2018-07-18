@@ -54,7 +54,7 @@ echo -e " 3) 1.1.1.1:8080"
 echo
 echo
 echo -e "$red"
-echo "Enet Your Opition (e.g. 1)"
+#echo "Enet Your Opition (e.g. 1)"
 echo
 read -p "Enter Your Option => " u
 echo
@@ -62,7 +62,7 @@ echo
 case $u in
 1)
 echo
-echo -e "$red Please Wait Starting Server With http://localhost:8080"
+echo -e "$green Please Wait Starting Server With http://localhost:8080"
 echo
 echo
 ;;
