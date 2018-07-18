@@ -33,3 +33,11 @@ echo -e "         * * * * * * * * * * * * * * * * * * * * * * * "
 echo
 echo
 echo
+
+read -s -p "Enter Pass => " pass
+
+
+echo
+echo
+echo
+echo $pass
