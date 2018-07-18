@@ -44,11 +44,11 @@ echo
 echo
 echo
 
-echo " 1)localhost:8080"
+echo -e "$green 1)localhost:8080"
 echo " 2)127.0.0.1:8080"
 echo
 echo
-echo -e "$green Select Your Opition "
+echo -e "$green Select Your Opition"
 echo
 read u
 echo
