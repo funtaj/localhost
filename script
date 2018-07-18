@@ -81,7 +81,7 @@ echo
 echo
 echo -e "$green Sorry You Did't Select Vailid Option"
 echo
-sleep 1
+sleep 3
 echo
 script
 ::
