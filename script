@@ -17,7 +17,7 @@ clear
 echo
 echo -e "$green"
 
-echo -e "         *********************************************"            
+echo -e "         * * * * * * * * * * * * * * * * * * * * * * * "            
 echo -e "         *                                           *"
 echo -e "         *        $red ---- Run Php Server ----   $green       *"
 echo -e "         *                                           *"
@@ -29,4 +29,4 @@ echo -e "         *          $green   www.funtaj.info               $green*"
 echo -e "         *                                          $green *"
 echo -e "         *   +++$red Powerd By =>$green www.funtaj.info +++ $green   *"
 echo -e "         *                                          $green *"
-echo -e "         *********************************************"
+echo -e "         * * * * * * * * * * * * * * * * * * * * * * * "
