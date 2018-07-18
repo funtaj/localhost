@@ -34,10 +34,32 @@ echo
 echo
 echo
 
-read -s -p "Enter Pass => " pass
+echo -e "$blue    ---------------------------------------------------"
+
+echo
+echo
+echo -e " $green There Are Some Url List Please Select Any One"
 
 
 echo
+echo -e "$blue"
+echo
+echo -e " 1) localhost:8080"
+echo
+
+echo -e " 2) 127.0.0.1:8080"
+echo
+
+echo -e " 3) 1.1.1.1.1:8080"
 echo
 echo
-echo $pass
+echo -e "$red"
+read "Enet Your Opition (e.g. 1)"url
+echo
+echo
+echo
+echo -e " $green Please Wait For Start Server"
+echo
+echo
+sleep 2
+exit
