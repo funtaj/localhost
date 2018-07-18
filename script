@@ -25,6 +25,7 @@ echo -e "         *        =====$green Version => 1.0 $green=====  $green       
 echo -e "         *                                           *"
 echo -e "         *        $blue Visit For More Scripts       $green     *"
 echo -e "         *             $blue   & Offers                  $green *"
+echo -e "         *                                           *"
 echo -e "         *          $green   www.funtaj.info               $green*"
 echo -e "         *                                          $green *"
 echo -e "         *   +++$red Powerd By =>$green www.funtaj.info +++ $green   *"
