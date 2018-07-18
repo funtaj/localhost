@@ -50,7 +50,7 @@ echo
 echo -e " 2) 127.0.0.1:8080"
 echo
 
-echo -e " 3) 1.1.1.1.1:8080"
+echo -e " 3) 1.1.1.1:8080"
 echo
 echo
 echo -e "$red"
@@ -63,19 +63,33 @@ echo
 if [ $u=="1" ]; then
 
 
-echo -e " $green Please Wait For Start Server"
+echo -e " $green Please Wait For Starting http://localhost:8080"
 echo
 sleep 2
-
 php -S localhost:8080 -t /sdcard/public_html
-
 bash /data/data/com.termux/files/home/localhost/script
 fi
 if [ $u=="2" ]; then
 
+echo -e " $green Please Wait For Starting http://127.0.0.1:8080"
+echo
+
+
 php -S 127.0.0.1:8080 -t /sdcard/public_html
 bash /data/data/com.termux/files/home/localhost/script
 fi
+
+
+if [ $u=="3" ]; then
+
+
+echo -e " $green Please Wait For Starting http://1.1.1.1.8080"
 echo
 sleep 2
+php -S 1.1.1.1:8080 -t /sdcard/public_html
+bash /data/data/com.termux/files/home/localhost/script
+echo
+sleep 2
+
+fi
 exit
