@@ -14,7 +14,7 @@ pkg install php
 cd $dir/home
 cd /sdcard
 mkdir public_html
-cd $dir/home
+cd $dir/home/localhost
 echo 
 echo
 
@@ -28,6 +28,7 @@ echo -e " $green     ======= Script Installed Succesfully======="
 echo
 echo
 echo
+cd $dir/home
 rm -rf localhost
 echo -e "$blue   You Can Run Script by Just call $red `script`"
 
