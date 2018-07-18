@@ -60,7 +60,7 @@ read u
 echo
 echo
 
-if [ $u=="1"]; then
+if [ $u=="1" ]; then
 
 echo -e "localhost"
 fi
