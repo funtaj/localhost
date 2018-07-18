@@ -59,7 +59,11 @@ echo
 read u
 echo
 echo
+echo $u
 
+echo
+
+echo
 if [ $u=="1" ]; then
 
 
