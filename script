@@ -30,3 +30,13 @@ echo -e "         *                                          $green *"
 echo -e "         *   +++$red Powerd By =>$green www.funtaj.info +++ $green   *"
 echo -e "         *                                          $green *"
 echo -e "         * * * * * * * * * * * * * * * * * * * * * * * "
+echo
+echo
+echo
+echo
+echo
+echo
+
+read u
+
+echo $u
