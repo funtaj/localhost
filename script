@@ -44,17 +44,3 @@ echo
 echo
 echo
 
-echo -e "$green 1=> localhost:8080"
-echo " 2=> 127.0.0.1:8080"
-echo
-echo
-echo -e "$green Select Your Opition"
-echo
-read u
-echo
-if [ $u == '1' ] ; then
-echo $u
-else
-read u
-if [ $u == '2' ] : then
-echo $u
