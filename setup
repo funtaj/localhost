@@ -20,7 +20,7 @@ echo
 
 chmod +x script
 mv script $dir/usr/bin
-
+clear
 echo
 echo
 echo -e " $green     ======= Script Installed Succesfully======="
@@ -31,5 +31,6 @@ echo
 cd $dir/home
 rm -rf localhost
 echo -e "$blue   You Can Run Script by Just call $red script"
-
-exit
+sleep 3
+echo
+script
