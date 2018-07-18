@@ -56,7 +56,7 @@ echo
 echo -e "$red"
 echo "Enet Your Opition (e.g. 1)"
 echo
-read u
+read -p "Enter Your Option => " u
 echo
 echo
 echo $u
