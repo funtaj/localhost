@@ -20,15 +20,15 @@ echo
 
 
 
-echo "**********************************"
-echo "*                                *"
-echo "*                                *"
-echo "*                                *"
-echo "*                                *"
-echo "*                                *"
-echo "*                                *"
-echo "*                                *"
-echo "**********************************"
+echo "              **********************************"
+echo "              *                                *"
+echo "              *                                *"
+echo "              *                                *"
+echo "              *                                *"
+echo "              *                                *"
+echo "              *                                *"
+echo "              *                                *"
+echo "              **********************************"
 
 
 
@@ -59,16 +59,10 @@ echo
 echo
 echo " 1)http://localhost:8080"
 echo 
-echo " 2)http://127.0.0.1:8080 "
+echo " 2)http://127.0.0.1:8080"
 echo 
 echo 
 echo 
-
-
-
-
-
-#echo " 3)http://0.0.0.0:8080"
 echo
 echo
 echo -e "$green Select Your Opition "
@@ -98,3 +92,4 @@ script
 
 echo
 ;;
+esac
