@@ -29,20 +29,38 @@ echo
 echo 
 echo -e "$red         +++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo
+
+echoe
+echo
+echo
+
+echo -e "$blue You Can Edit && Upload Your File In public_html in Your Storage "
+
+
 echo
 echo -e "$blue   Select Your Url "
 echo
 
 echo -e "$yellow 1)http://localhost:8080"
+echo
 echo " 2)http://127.0.0.1:8080"
 #echo " 3)http://0.0.0.0:8080"
+
+echo
+echo
+echo
+
 read u
 echo
 case "$u" in
 1) echo
 echo
 
-echo -e "$green  Please Wait Starting $u"
+echo -e "$green  Please Wait Starting http://localhost:8080"
+
+echo
+echo
+echo
 cd $dir/home 
 
 sleep 2
