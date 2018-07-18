@@ -51,7 +51,7 @@ echo
 echo -e " 2) 127.0.0.1:8080"
 echo
 
-echo -e " 3) 1.1.1.1:8080"
+#echo -e " 3) 1.1.1.1:8080"
 echo
 echo
 echo -e "$red"
@@ -77,12 +77,12 @@ sleep 2
 php -S 127.0.0.1:8080 -t /sdcard/public_html
 echo
 ;;
-3)
+*)
 echo
-echo -e "$green Please Wait Starting Server With http://1.1.1.1:8080"
+echo -e "$green Sorry You Did't Select Vailid Option"
 echo
-sleep 2
-php -S 1.1.1.1:8080 -t /sdcard/public_html
+sleep 1
 echo
+script
 ::
 esac
