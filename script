@@ -62,11 +62,16 @@ echo
 
 if [ $u=="1" ]; then
 
-echo -e "localhost"
-fi
 
 echo -e " $green Please Wait For Start Server"
 echo
+sleep 2
+
+php -S localhost:8080 -t /sdcard/public_html
+
+bash /data/data/com.termux/files/home/localhost/script
+fi
+
 echo
 sleep 2
 exit
