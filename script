@@ -52,22 +52,5 @@ echo -e "$green Select Your Opition "
 echo
 read u
 echo
-case "$u" in
-1)echo
-echo
-echo -e "$green  Please Wait Starting Server .........."
-echo
-echo
-echo
-cd $dir/home 
-sleep 2
-php -S localhost:8080 -t /sdcard/public_html
-echo
-echo
-echo
-script
-;;
-2)echo
-echo
-;;
-esac
+if [ $u = '1' ] ; then
+echo $u
