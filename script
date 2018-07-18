@@ -15,19 +15,26 @@ cd $dir/home
 
 clear
 echo
-echo -e "$red         +++++++++++++++++++++++++++++++++++++++++++++++++++++"
 
-echo
 
-echo -e "$green                   ---===== Run Localhost =====---"
-echo
-echo -e "$blue                         Version => $green 1.0"
-echo 
-echo -e "$blue                         Powerd By => $green www.funtaj.info"
-echo 
 
-echo 
-echo -e "$red         +++++++++++++++++++++++++++++++++++++++++++++++++++++"
+
+
+echo "**********************************"
+echo "*                                *"
+echo "*                                *"
+echo "*                                *"
+echo "*                                *"
+echo "*                                *"
+echo "*                                *"
+echo "*                                *"
+echo "**********************************"
+
+
+
+
+
+
 echo
 echo
 echo
@@ -47,16 +54,15 @@ echo
 echo
 
 echo -e "$green"
-
-echo "**********************************"
-echo "*                                *"
-echo "*                                *"
-echo "*     1)http://localhost:8080    *"
-echo "*                                *"
-echo "*      2)http://127.0.0.1:8080   *"
-echo "*                                *"
-echo "*                                *"
-echo "**********************************"
+echo
+echo
+echo
+echo " 1)http://localhost:8080"
+echo 
+echo " 2)http://127.0.0.1:8080 "
+echo 
+echo 
+echo 
 
 
 
