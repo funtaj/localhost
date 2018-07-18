@@ -20,27 +20,3 @@ echo
 
 
 
-#echo "              **********************************"
-#echo "              *                                *"
-#echo "              *                                *"
-#echo "              *                                *"
-#echo "              *                                *"
-#echo "              *                                *"
-#echo "              *                                *"
-#echo "              *                                *"
-#echo "              **********************************"
-#echo
-#echo
-echo
-echo -e "$green        ------------------------------------------------------------------------"
-echo
-echo -e "$blue            You Can Edit && Upload Your File In public_html in Your Storage "
-echo -e "$green        ------------------------------------------------------------------------
-echo
-echo
-echo
-echo -e "$blue            Url Lists For Run Php "
-echo
-echo
-echo
-
