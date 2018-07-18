@@ -74,7 +74,7 @@ php -S localhost:8080 -t /sdcard/public_html
 bash /data/data/com.termux/files/home/localhost/script
 fi
 
-read u
+read -p "Enter Value => " u
 if [ $u=="2" ]; then
 echo -e " $green Please Wait For Starting http://127.0.0.1:8080"
 echo
