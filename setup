@@ -1,6 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
 dir=/data/data/com.termux/files
-
 #colors
 cyan='\033[1;36m'
 green='\033[1;32m'
@@ -9,8 +8,6 @@ yellow='\033[1;33m'
 blue='\033[1;34m'
 purple='\033[1;35m'
 reset='\033[0m'
-
-
 
 cd $dir/home
 pkg install php
@@ -21,9 +18,8 @@ cd $dir/home
 echo 
 echo
 
-#chmod +x script
-
-#cp script $dir/usr/bin
+chmod +x script
+mv script $dir/usr/bin
 
 echo
 echo
@@ -35,3 +31,5 @@ echo
 
 echo -e "$blue                     -- You Can Run Script by Just call $red `script`"
 
+rm -rf localhost
+echo
