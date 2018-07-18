@@ -14,13 +14,45 @@ reset='\033[0m'
 cd $dir/home
 
 clear
-echo echo
+echo
 echo -e "$red         +++++++++++++++++++++++++++++++++++++++++++++++++++++"
 
 echo
 
 echo -e "$green                   ---===== Run Localhost =====---"
+echo
+echo -e "$blue                         Version => $green 1.0"
+echo 
+echo -e "$blue                         Powerd By => $green www.funtaj.info"
+echo 
+
 echo 
 echo -e "$red         +++++++++++++++++++++++++++++++++++++++++++++++++++++"
+echo
+echo
+echo -e "$blue   Select Your Url "
+echo
 
+echo -e "$yellow 1)http://localhost:8080"
+echo " 2)http://127.0.0.1:8080"
+#echo " 3)http://0.0.0.0:8080"
+read u
+echo
+case "$u" in
+1) echo
+echo
 
+echo -e "$green  Please Wait Starting $u"
+cd $dir/home 
+
+sleep 2
+
+php -S localhost:8080 -t /sdcard/public_html
+echo
+echo
+echo
+script
+;;
+2)echo
+
+echo
