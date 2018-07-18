@@ -43,13 +43,9 @@ echo -e "$blue            Url Lists For Run Php "
 echo
 echo
 echo
-echo
-echo '1)http://localhost:8080'
-echo 
-echo '2)http://127.0.0.1:8080'
-echo 
-echo 
-echo 
+
+echo " 1)localhost:8080"
+echo " 2)127.0.0.1:8080"
 echo
 echo
 echo -e "$green Select Your Opition "
