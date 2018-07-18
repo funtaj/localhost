@@ -31,3 +31,4 @@ echo
 rm -rf localhost
 echo -e "$blue   You Can Run Script by Just call $red `script`"
 
+exit
