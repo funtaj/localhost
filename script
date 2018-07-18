@@ -52,5 +52,9 @@ echo -e "$green Select Your Opition"
 echo
 read u
 echo
-if [ $u = '1' ] ; then
+if [ $u == '1' ] ; then
+echo $u
+else
+if [ $u == '2' ] : then
+
 echo $u
