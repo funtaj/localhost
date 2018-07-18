@@ -59,7 +59,12 @@ echo
 read -p "Enter Your Option => " u
 echo
 echo
-echo $u
-
+case $u in
+1)
 echo
+echo -e "$red Please Wait Starting Server With http://localhost:8080"
+echo
+echo
+;;
 
+esac
