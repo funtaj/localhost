@@ -20,6 +20,7 @@ echo
 
 chmod +x script
 mv script $dir/usr/bin
+mv index.php /sdcard/public_html
 clear
 echo
 echo
