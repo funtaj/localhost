@@ -1,1 +1,24 @@
 
+#!/data/data/com.termux/files/usr/bin/bash
+cd $HOME 
+
+cd /data/data/com.termux/files/usr/bin
+
+rm -rf script
+
+cd $HOME
+
+echo -e "Updating Files Please Wait..."
+echo
+echo
+git clone https://github.com/funtaj/localhost.git
+
+
+echo -e "Extracting Files ...."
+echo
+echo
+echo
+sleep 2
+
+echo -e "Updated SuccessFully..."
+exit
