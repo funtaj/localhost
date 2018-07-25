@@ -19,7 +19,9 @@ echo
 echo
 
 chmod +x script
+chmod +x update-server
 mv script $dir/usr/bin
+mv update-server $dir/usr/bin
 mv index.php /sdcard/public_html
 clear
 echo
