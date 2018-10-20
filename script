@@ -79,10 +79,10 @@ echo
 ;;
 3)
 echo
-echo -e "$green Sorry You Did't Select Vailid Option"
+echo -e "$green Please Wait Getting Link"
 echo
 sleep 3
 echo
-script
+./ngrok http 8080
 ::
 esac
